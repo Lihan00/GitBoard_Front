@@ -1,0 +1,98 @@
+.loginbody {
+    width: 100%;
+    height: 90vh;
+    background: url("./../../images/PcHome.png") center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.playbody {
+    height: 88vh;
+    align-items: center;
+    flex-direction: row;
+}
+
+.playinput {
+    display: flex;
+    justify-content: center;
+}
+
+.playlogin {
+    color: white;
+    font-size: 4vh;
+    font-weight: 700;
+    padding-top: 25vh;
+    text-align: center;
+}
+
+.playregistertitle {
+    color: white;
+    font-size: 4vh;
+    font-weight: 700;
+    padding-top: 15vh;
+    text-align: center;
+}
+
+.playid {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    height: 4vh;
+    width: 20vw;
+    justify-content: center;
+    margin-top: 3vh;
+    border: 1px solid gray;
+}
+
+.playpw {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    height: 4vh;
+    width: 20vw;
+    margin-top: 1.5vh;
+    border: 1px solid gray;
+}
+
+.playregister {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    height: 3.5vh;
+    width: 10vw;
+    margin-top: 1.5vh;
+    text-align: center;
+    padding-top: 1vh;
+    border: 1px solid gray;
+}
+
+.playregister:hover {
+    cursor: pointer;
+}
+
+.lineone {
+    height: 1vh;
+}
+
+.linetwo {
+    background-color: black;
+    height: 2.5vh;
+}
+
+.linethree {
+    height: 1.5vh;
+}
+
+.linefour {
+    background-color: gray;
+    height: 1.5vh;
+}
+
+.linefive {
+    height: 2.5vh;
+}
+
+.linesix {
+    background-color: lightgray;
+    height: 1vh;
+}

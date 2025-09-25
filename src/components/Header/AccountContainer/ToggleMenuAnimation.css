@@ -1,0 +1,12 @@
+[class*="active"] {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+[class*="inactive"] {
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--speed);
+    transform: translateY(-20px);
+}
